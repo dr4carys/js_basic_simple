@@ -36,7 +36,11 @@ document.querySelectorAll('input[name="pizza"]').forEach((elem) => {
 
 document.querySelectorAll('input[name="size"]').forEach((elem) => {
     elem.addEventListener("click", function(event){
-        hasil.textContent=temp=temp+parseInt(event.target.value);
+        if(event.target.checked){
+            hasil.textContent=temp=temp+parseInt(event.target.value);
+        }else{
+            hasil.textContent=temp=temp-parseInt(event.target.value);
+        }
     });
 });
 document.querySelectorAll('input[name="pizza1"]').forEach((elem) => {
