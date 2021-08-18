@@ -1,0 +1,32 @@
+.section-container{
+    text-align: center;
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.menu-container{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-list{
+    width: 20%;
+    margin:0 auto;
+}
+.checkbox-size{
+    width: 20%;
+    margin:0 auto;
+}
+.toppings{
+    width: 20%;
+    margin:0 auto;
+
+}
+.bram{
+    text-align: left;
+}
+.menu-list img{
+    width: 100px;
+    height: 100px;
+}
